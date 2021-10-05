@@ -95,7 +95,7 @@ def ObstacleFree(path, obstacles):
 
 def IsGoal(node_new, goal):
     dist = np.hypot(node_new["x"] - goal[0], node_new["y"] - goal[1])
-    if dist < 1.0:
+    if dist < 2.0:
         return True
     else:
         return False
@@ -103,7 +103,7 @@ def IsGoal(node_new, goal):
 
 if __name__ == '__main__':
     ## environment setup
-    np.random.seed(12)
+    np.random.seed(6)
 
     dubins = Dubins()
 

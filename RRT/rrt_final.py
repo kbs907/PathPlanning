@@ -24,7 +24,7 @@ class Obstacle(object) :
             
 def SampleFree(space, goal):
     min_x, max_x, min_y, max_y = space
-    if np.random.rand() > 0.1 :
+    if np.random.rand() > 0.04 :
         rand_x = np.random.uniform(min_x, max_x)
         rand_y = np.random.uniform(min_y, max_y)
     else :
@@ -91,7 +91,7 @@ def IsGoal(node_new, goal) :
         
 if __name__ == '__main__':
     ## enironment setup
-    np.random.seed(1)
+    np.random.seed(12)
     min_x, max_x = -20, 20
     min_y, max_y = -20, 20
     

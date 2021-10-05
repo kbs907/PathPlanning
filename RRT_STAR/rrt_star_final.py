@@ -84,7 +84,7 @@ def ObstacleFree(node_nearest, node_new, obstacles):
 
 def IsGoal(node_new, goal) :
     dist = np.hypot(node_new["x"] - goal[0], node_new["y"] - goal[1])
-    if dist < 1.0 :
+    if dist < 2.0 :
         return True
     else :
         return False
@@ -113,7 +113,7 @@ def Parent(G, node_near_id) :
 
 if __name__ == '__main__':
     ## enironment setup
-    np.random.seed(1)
+    np.random.seed(2)
     min_x, max_x = -20, 20
     min_y, max_y = -20, 20
     
@@ -152,7 +152,7 @@ if __name__ == '__main__':
         node_new = Steer(node_nearest, node_rand)
         if ObstacleFree(node_nearest, node_new, obstacles):
             card_v = len(list(G.nodes))
-            radius = 4.0 # np.amin([gamma * np.sqrt(np.log(crd_v)/card_v), eta])
+            radius = 5.0 # np.amin([gamma * np.sqrt(np.log(crd_v)/card_v), eta])
             nodes_near_id = Near(G, node_new, radius)
             G.add_nodes_from([
                 (i, node_new)
