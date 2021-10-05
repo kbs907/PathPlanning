@@ -24,7 +24,7 @@ class Obstacle(object) :
             
 def SampleFree(space, goal):
     min_x, max_x, min_y, max_y = space
-    if np.random.rand() > 0 :
+    if np.random.rand() > 0.1 :
         rand_x = np.random.uniform(min_x, max_x)
         rand_y = np.random.uniform(min_y, max_y)
     else :
@@ -131,6 +131,7 @@ if __name__ == '__main__':
             
             if IsGoal(node_new, goal):
                 goal_node_id = i
+                break
                 
                 
     if goal_node_id is None :
