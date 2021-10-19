@@ -10,12 +10,12 @@
 > 
 > ## Result
 > ### 랜덤으로 탐색했을 경우
-> ![](https://github.com/kbs907/PathPlanning/blob/main/RRT/rrt_random_100.png?raw=true)
+> <img src="https://github.com/kbs907/PathPlanning/blob/main/RRT/rrt_random_100.png" width="400" height="400">
 > 
 > </br>
 > 
 > ### 90% 확률로 랜덤한 지점 선택, 10% 확률로 목표지점 선택
-> ![](https://github.com/kbs907/PathPlanning/blob/main/RRT/rrt_random_90.png?raw=true)
+> <img src="https://github.com/kbs907/PathPlanning/blob/main/RRT/rrt_random_90.png?raw=true" width="400" height="400">
 > 
 > heuristic을 적용했을 때 좀더 빠르게 목표지점에 도달하는 것을 확인
  
@@ -32,12 +32,12 @@
  >
  > ## Result (RRT와 RRT* 비교)
  > ### RRT의 경우
- > ![](https://github.com/kbs907/PathPlanning/blob/main/RRT_STAR/rrt.png?raw=true)
+ > <img src="https://github.com/kbs907/PathPlanning/blob/main/RRT_STAR/rrt.png?raw=true" width="400" height="400">
  >
  > </br>
  >
  > ### RRT*의 경우
- > ![](https://github.com/kbs907/PathPlanning/blob/main/RRT_STAR/rrt_star.png?raw=true)
+ > <img src="https://github.com/kbs907/PathPlanning/blob/main/RRT_STAR/rrt_star.png?raw=true" width="400" height="400">
  >
  > 기존 RRT와 다르게, 탐색한 노드중에서 cost를 낮출 수 있는 경우 rewiring을 하여 좀더 최적의 경로를 생성하는것을 확인
 
@@ -57,32 +57,32 @@
  > </br>
  > 
  > ### LRL
- > ![](https://github.com/kbs907/PathPlanning/blob/main/Dubins/Dubins_LRL.png?raw=true)
+ > <img src="https://github.com/kbs907/PathPlanning/blob/main/Dubins/Dubins_LRL.png?raw=true" width="300" height="300">
  >
  > </br>
  >
  > ### LSL
- > ![](https://github.com/kbs907/PathPlanning/blob/main/Dubins/Dubins_LSL.png?raw=true)
+ > <img src="https://github.com/kbs907/PathPlanning/blob/main/Dubins/Dubins_LSL.png?raw=true" width="300" height="300">
  >
  > </br>
  > 
  > ### LSR
- > ![](https://github.com/kbs907/PathPlanning/blob/main/Dubins/Dubins_LSR.png?raw=true)
+ > <img src="https://github.com/kbs907/PathPlanning/blob/main/Dubins/Dubins_LSR.png?raw=true" width="300" height="300">
  >
  > </br>
  > 
  > ### RLR
- > ![](https://github.com/kbs907/PathPlanning/blob/main/Dubins/Dubins_RLR.png?raw=true)
+ > <img src="https://github.com/kbs907/PathPlanning/blob/main/Dubins/Dubins_RLR.png?raw=true" width="300" height="300">
  >
  > </br>
  > 
  > ### RSL
- > ![](https://github.com/kbs907/PathPlanning/blob/main/Dubins/Dubins_RSL.png?raw=true)
+ > <img src="https://github.com/kbs907/PathPlanning/blob/main/Dubins/Dubins_RSL.png?raw=true" width="300" height="300">
  >
  > </br>
  > 
  > ### RSR
- > ![](https://github.com/kbs907/PathPlanning/blob/main/Dubins/Dubins_RSR.png?raw=true)
+ > <img src="https://github.com/kbs907/PathPlanning/blob/main/Dubins/Dubins_RSR.png?raw=true" width="300" height="300">
  >
  
 </br></br>
@@ -98,7 +98,7 @@
  > </br></br>
  >
  > ## Result
- > ![](https://github.com/kbs907/PathPlanning/blob/main/RRT_Dubins/rrt_dubins.png?raw=true)
+ > <img src="https://github.com/kbs907/PathPlanning/blob/main/RRT_Dubins/rrt_dubins.png?raw=true" width="400" height="400">
  >
  >
  > rrt처럼 탐색을 하되, 의도한대로 각 노드간 경로가 Dubins path인 것을 확인할 수 있다
